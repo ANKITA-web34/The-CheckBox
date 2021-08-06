@@ -1,0 +1,46 @@
+    html {
+        font-family: sans-serif;
+        /* background: #ffc600; */
+        background: #478f73;
+      }
+  
+      .inbox {
+        max-width: 400px;
+        margin: 50px auto;
+        /* background: white; */
+        background: #ecb9b3;
+        border-radius: 5px;
+        box-shadow: 11px 14px 0 #f598985b;
+      }
+  
+      .item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #F1F1F1;
+      }
+  
+      .item:last-child {
+        border-bottom: 0;
+      }
+  
+      input:checked + p {
+        /* background: #F9F9F9; */
+        background: #68d6ac96;
+        text-decoration: line-through;        
+        text-shadow: 1px 2px #f38f8fa6;
+      }
+  
+      input[type="checkbox"] {
+        margin: 20px;
+      }
+  
+      p {
+        margin: 0;
+        padding: 20px;
+        transition: background 0.2s;
+        flex: 1;
+        font-family:'helvetica neue';
+        font-size: 20px;
+        font-weight: 200;
+        border-left: 1px solid #D1E2FF;
+      }
